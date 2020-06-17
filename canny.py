@@ -26,7 +26,7 @@ def canny(raw_img, use_cuda=False):
 
 
 if __name__ == '__main__':
-    img = imread('fb_profile.jpg') / 255.0
+    img = imread('g0040.jpg') / 255.0
 
     # canny(img, use_cuda=False)
     canny(img, use_cuda=True)
